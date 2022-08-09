@@ -1,0 +1,83 @@
+/* COMENTS */
+
+* {         /* RESETAR ESTILOS */
+    margin: 0 ;  /* margin = espaços */
+    padding: 0 ;  /* padding = preenchimentos */
+}
+
+body { 
+    background-color: #3f0702;
+    font-family: 'Oswald', 'Roboto', sans-serif;
+}
+    
+ul {
+    list-style: none;  /* tirou o estilo da lista, agr é lista simples */
+}
+
+/*FONTS*/
+
+h1,h2,h3, .price {
+    font-family: 'Oswald';
+}
+
+header{
+    padding: 32px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 span {
+    color: #c36308;
+    margin-bottom: 4px;
+    font-size: 28px ;
+}
+
+header p {
+    padding-top: 15px;
+    color: #c0bebd;
+}
+
+header,     /* estiliza as duas de uma vez */
+section {  
+    max-width: 300px ;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+section h2 {
+    background-color: #ff5a01 ;
+    padding: 8px 16px;
+    text-align: center;
+    color: white;
+    margin-bottom: 24px; /*espaço abaixo*/
+    font-size: 18px ;
+}
+
+
+ul li {
+    margin-bottom: 16px ;
+    display: flex;      /*flex entende que um elemento vai ficar do lado do outro*/
+}
+
+li .details {  /*procuar dentro do 'li' um elemento que tenha a class "details"*/
+max-width: 240px ;
+color: rgb(194, 194, 194);
+}
+
+.details h3 {
+    margin-bottom: 8px;
+    color: #c36308;
+    font-size: 16px;
+}
+
+.price {
+    color: #c36308;
+}
+
+.details {
+    font: 14px;
+    line-height: 21px;
+}
